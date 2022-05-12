@@ -8,7 +8,7 @@
     {{-- css --}}
     <link rel="stylesheet" href="{{asset("css/base.css")}}"> 
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document - @yield('head-title')</title>
+    <title>Movies - @yield('head-title')</title>
 </head>
 <body>
 
