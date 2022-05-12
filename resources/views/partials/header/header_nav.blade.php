@@ -11,7 +11,7 @@
                         <a class="nav-link" href="{{asset(url('/'))}}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">You Account</a>
+                        <a class="nav-link" href="{{asset('/form')}}">Insert Content</a>
                     </li>
                 </ul>
             </div>

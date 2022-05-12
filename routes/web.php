@@ -15,4 +15,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',[PageController::class, 'index'],function () {
+    
+});
+
+
+Route::post('/form','PageController@insert');
+
+
+Route::get('/form','PageController@show',function () {
 });
