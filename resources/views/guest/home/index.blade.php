@@ -3,7 +3,7 @@
 @section('head-title','home')
     
 
-@section('header-nav')
+@section('header-content')
     @include('partials.header.header_nav')    
 @endsection
 
