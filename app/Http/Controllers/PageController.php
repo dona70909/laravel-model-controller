@@ -18,13 +18,15 @@ class PageController extends Controller
     public function insert(Request $request){
 
         $movie = new Movie();
-        $movie->title = $request->input('title');
-        $movie->original_title = $request->input('original_title');
-        $movie->nationality = $request->input('nationality');
-        $movie->date = $request->input('date');
-        $movie->vote = $request->input('vote'); 
+        $movie->title = $request->title;
+        $movie->original_title = $request->original_title;
+        $movie->nationality = $request->nationality;
+        $movie->date = $request->date;
+        $movie->vote = $request->vote; 
 
         $movie->save();
+
+        return redirect('guest.home.index');
     }
 
     public static function show() {

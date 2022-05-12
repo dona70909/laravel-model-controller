@@ -3,6 +3,7 @@
         <div class="col-12">
             <form action="/" method="post">
                 <!-- content  -->
+                @csrf
                 <h1 class="mb-2">Insert your content</h1>
                 <div class="box-input-title  mb-2">
                     <label for="input-title">Insert title</label>
