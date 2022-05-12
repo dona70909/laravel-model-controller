@@ -8,9 +8,11 @@
     {{-- css --}}
     <link rel="stylesheet" href="{{asset("css/base.css")}}"> 
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Document - @yield('head-title')</title>
 </head>
 <body>
-    
+
+    @include('partials.header.header')
+    @include('partials.main.main')
 </body>
 </html>
