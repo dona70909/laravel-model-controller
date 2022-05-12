@@ -1,5 +1,5 @@
 <section class="container-fluid">
-    <div class="row p-4">
+    <div class="row p-4 movie-cards-wrap">
         @foreach ($movies as $movie)
             <div class="card col-2">
                 <img class="card-img-top" src="..." alt="Card image cap">
