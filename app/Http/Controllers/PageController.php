@@ -10,7 +10,6 @@ class PageController extends Controller
     public static function index() {
 
         $movies = Movie::all();
-
         return view('guest.home.index',compact('movies'));
 
     }
@@ -23,10 +22,9 @@ class PageController extends Controller
         $movie->nationality = $request->nationality;
         $movie->date = $request->date;
         $movie->vote = $request->vote; 
-
         $movie->save();
 
-        return redirect('guest.home.index');
+        return redirect('/')->with('status', 'Content Has Been inserted');
     }
 
     public static function show() {

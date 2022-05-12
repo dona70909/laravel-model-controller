@@ -1,7 +1,7 @@
 <section class="container-fluid">
     <div class="row">
         <div class="col-12">
-            <form action="/" method="post">
+            <form  name="/form"  action="store-form" method="post">
                 <!-- content  -->
                 @csrf
                 <h1 class="mb-2">Insert your content</h1>

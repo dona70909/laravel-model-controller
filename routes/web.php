@@ -19,7 +19,7 @@ Route::get('/',[PageController::class, 'index'],function () {
 });
 
 
-Route::post('/','PageController@insert');
+Route::post('store-form','PageController@insert');
 
 
 Route::get('/form','PageController@show',function () {
