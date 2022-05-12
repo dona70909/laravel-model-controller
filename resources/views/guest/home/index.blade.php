@@ -1,6 +1,6 @@
 @extends('layouts.base')
 
-@section('head-title','home')
+@section('head-title','Home')
     
 
 @section('header-content')
