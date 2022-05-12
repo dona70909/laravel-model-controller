@@ -28,7 +28,6 @@ class PageController extends Controller
     }
 
     public static function show() {
-        
         return view('guest.home.show');
     }
 
